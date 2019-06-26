@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">BoilerplateCode</string>
+    <string name="err_generic_permission">One or more required permission are missing. Please grant
+        access to all permissions from App Settings.
+    </string>
+    <string name="err_camera_not_found"> Camera Not Found.Please allow camera permission in App Settings.</string>
+    <string name="err_camera_permission">Camera permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="err_location_permission">Location permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="err_contact_permission">Contact Read permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="err_read_permission">Read permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="err_write_permission">Write permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="err_phone_permission">Please grant phone permission to proceed further.</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="open_settings">Open settings</string>
 </resources>

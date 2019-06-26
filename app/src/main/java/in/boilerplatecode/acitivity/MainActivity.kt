@@ -1,5 +1,6 @@
-package `in`.boilerplatecode
+package `in`.boilerplatecode.acitivity
 
+import `in`.boilerplatecode.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
