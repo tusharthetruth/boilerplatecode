@@ -69,8 +69,8 @@ class AppLifeCycle : Application.ActivityLifecycleCallbacks {
             }
             AppState.FOREGROUND ->
                 //                App.log().v(LOG_TAG, "onAppForegrounded");
-                mListener.get()!!.onAppBackgrounded()
-            AppLifeCycle.AppState.BACKGROUND ->
+                mListener.get()!!.onAppForegrounded()
+            AppState.BACKGROUND ->
 //                               App.log().v(LOG_TAG, "onAppBackgrounded");
                 mListener.get()!!.onAppBackgrounded()
         }
